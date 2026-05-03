@@ -1,12 +1,12 @@
 const CACHE_NAME = 'pc-portfolio-v2';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/script.js',
-    '/manifest.json',
-    '/icon-192x192.png',
-    '/icon-512x512.png'
+    './',
+    './index.html',
+    './styles.css',
+    './script.js',
+    './manifest.json',
+    './icon-192x192.png',
+    './icon-512x512.png'
 ];
 
 self.addEventListener('install', event => {
